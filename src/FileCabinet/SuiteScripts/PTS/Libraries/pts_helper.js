@@ -1,4 +1,5 @@
-define(["N/search"], function (search) {
+// eslint-disable-next-line no-undef
+define(["N/search","N/log"], function (search,log) {
 
     function groupBy(xs, key) {
         return xs.reduce(function (rv, x) {
@@ -65,7 +66,7 @@ define(["N/search"], function (search) {
 
                     };
                     //iterate over the collection of columns for the value
-                    columns.forEach(function (c, i, a) {
+                    columns.forEach(function (c, i) {
 
                         var keyName = "";
 
