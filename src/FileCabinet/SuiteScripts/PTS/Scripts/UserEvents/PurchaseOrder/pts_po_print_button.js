@@ -2,6 +2,7 @@
  *@NApiVersion 2.x
  *@NScriptType UserEventScript
  */
+// eslint-disable-next-line no-undef
 define(["N/log", "N/record"], function (log, record) {
   function beforeLoad(context) {
     try {

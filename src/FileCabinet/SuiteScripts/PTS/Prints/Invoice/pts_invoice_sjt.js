@@ -1,10 +1,10 @@
-const record = require("../../../../../../__mocks__/N/record");
 
 /**
  *@NApiVersion 2.x
  *@NScriptType Suitelet
  */
-define([], function () {
+// eslint-disable-next-line no-undef
+define(['N/record'], function (record) {
 
     function onRequest(context) {
 

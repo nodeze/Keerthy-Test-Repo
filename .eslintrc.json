@@ -15,5 +15,8 @@
     "quotes": ["warn", "double"],
     "semi": ["off", "never"],
     "camelcase": ["error", { "properties": "always" }]
+  },
+   "globals": {
+    "define": "readonly"
   }
 }
