@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_po_set_field">
+      <name>User Event Example</name>
+      <notifyowner>T</notifyowner>
+      <scriptfile>[/SuiteScripts/PTS/Scripts/UserEvents/PurchaseOrder/poSetField.js]</scriptfile>
+      <scriptdeployments>
+         <scriptdeployment scriptid="customdeploy_po_set_field">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>PURCHASEORDER</recordtype>
+            <status>TESTING</status>
+         </scriptdeployment>
+        </scriptdeployments> 
+</usereventscript>
