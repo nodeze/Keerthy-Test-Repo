@@ -1,0 +1,15 @@
+                <usereventscript scriptid="customscript_keerthytestsdfupdated">
+         <name>UE Test SDF New</name>
+         <notifyowner>T</notifyowner>
+         <scriptfile>[/SuiteScripts/PTS/Scripts/UserEvents/keerthytestsdfupdated.js]</scriptfile>
+         <scriptdeployments>
+                  <scriptdeployment scriptid="customdeploy_keerthytestsdfupdated">
+                     <isdeployed>T</isdeployed>
+                     <loglevel>DEBUG</loglevel>
+                     <recordtype>SALESORDER</recordtype>
+                     <status>RELEASED</status>
+                  </scriptdeployment>
+            </scriptdeployments>
+</usereventscript> 
+
+              
