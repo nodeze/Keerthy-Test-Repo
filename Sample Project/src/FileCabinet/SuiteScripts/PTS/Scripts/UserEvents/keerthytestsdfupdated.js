@@ -8,6 +8,7 @@ define(["N/log"], function(log) {
         var soRec = context.newRecord;
         var tranid = soRec.getValue("tranid");
         log.debug("Transaction ID Retrieved", tranid);
+        log.debug("Transaction ID Retrieved2", tranid);
 
     }
  
